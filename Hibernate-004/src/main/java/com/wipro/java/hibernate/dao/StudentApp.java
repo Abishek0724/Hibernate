@@ -15,9 +15,9 @@ public class StudentApp {
 
         try {
             // Create a new student object
-            Student student = new Student("Sneha", 136);
-            Student student1 = new Student("Yalini", 155);
-            Student student2 = new Student("Tamil", 147);
+            Student student = new Student("Abi", 136);
+            Student student1 = new Student("Swetha", 155);
+            Student student2 = new Student("singuhs", 147);
             
             // Save the student to the database
             session.save(student);
